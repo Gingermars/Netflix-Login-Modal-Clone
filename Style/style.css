@@ -66,6 +66,7 @@ form .form-control {
   font-size: 1rem;
   border-radius: 4px;
   padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .form-control input:is(:focus, :valid) ~ label {
